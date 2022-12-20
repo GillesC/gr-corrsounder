@@ -15,6 +15,18 @@
 
 1. Install/Build GNU Radio (it is recommended to use [PyBOMBS](https://github.com/gnuradio/pybombs))
 
+```sh
+sudo apt-get install python3-pip
+sudo pip3 install pybombs
+pybombs auto-config
+pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
+pybombs recipes add gr-etcetera git+https://github.com/gnuradio/gr-etcetera.git
+mkdir ~/gnuradio
+pybombs config --package gnuradio gitrev v3.7.11
+pybombs prefix init ~/prefix-3.7 -R gnuradio-default
+source ~/prefix-3.7/setup_env.sh
+```
+
 2. Get *gr-corrsounder* from github - `git clone https://github.com/inIT-HF/gr-corrsounder.git`
 
 3. Optional: Change to which prefix *gr-corrsounder* shall be installed - `source ~/corrsounder_prefix/setup_env.sh`
