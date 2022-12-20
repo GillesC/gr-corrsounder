@@ -21,7 +21,6 @@ sudo pip3 install pybombs
 pybombs auto-config
 pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
 pybombs recipes add gr-etcetera git+https://github.com/gnuradio/gr-etcetera.git
-mkdir ~/gnuradio
 pybombs config --package gnuradio gitrev v3.7.11
 pybombs prefix init ~/prefix-3.7 -R gnuradio-default
 source ~/prefix-3.7/setup_env.sh
