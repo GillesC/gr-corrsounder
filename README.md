@@ -13,6 +13,8 @@
 
 # Build/Install instructions
 
+0. Recommended installing an old version of Ubuntu (18.04) to support the legacy code of the corrsounder.
+
 1. Install/Build GNU Radio (it is recommended to use [PyBOMBS](https://github.com/gnuradio/pybombs))
 
 ```sh
