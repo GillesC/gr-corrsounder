@@ -65,4 +65,4 @@ source ~/prefix-3.7/setup_env.sh
  * [Gilles Callebaut](github.com/GillesC)
 
 # References
-1. Niels Hendrik Fliedner, Dimitri Block, Uwe Meier “A Software-Defined Channel Sounder for Industrial Environments with Fast Time Variance”. Submitted to the 15th International Symposium on Wireless Communication Systems (ISWCS 2018). [Arxiv preprint](https://arxiv.org/abs/1805.01236)
+1. N. H. Fliedner, D. Block and U. Meier, "A Software-Defined Channel Sounder for Industrial Environments with Fast Time Variance," 2018 15th International Symposium on Wireless Communication Systems (ISWCS), 2018, pp. 1-6, doi: 10.1109/ISWCS.2018.8491207. [Arxiv preprint](https://arxiv.org/abs/1805.01236)
