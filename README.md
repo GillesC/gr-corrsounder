@@ -14,12 +14,24 @@
 # Build/Install instructions
 
 0. Recommended installing an old version of Ubuntu (18.04) to support the legacy code of the corrsounder.
+  * Download [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)
+  * Create VM VirtualBox machine
+  * insert iso
+  * after installing and rebooting, insert Guest Additions iso
+  * `sudo apt install perl gcc make`
+  * run iso
+  * reboot
+  
 
 1. Install/Build GNU Radio (it is recommended to use [PyBOMBS](https://github.com/gnuradio/pybombs))
 
 ```sh
-sudo apt-get install python3-pip
-sudo pip3 install pybombs
+sudo apt install python
+sudo apt install python-pip
+sudo pip install mako requests numpy
+sudo apt install python3
+sudo apt install python3-pip
+sudo pip3 install --upgrade git+https://github.com/gnuradio/pybombs.git
 pybombs auto-config
 pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
 pybombs recipes add gr-etcetera git+https://github.com/gnuradio/gr-etcetera.git
