@@ -42,7 +42,7 @@ pybombs prefix init ~/prefix-3.7 -R gnuradio-default
 source ~/prefix-3.7/setup_env.sh
 ```
 
-2. Get *gr-corrsounder* from github - `git clone https://github.com/inIT-HF/gr-corrsounder.git`
+2. Get *gr-corrsounder* from github - `git clone https://github.com/gillesC/gr-corrsounder.git`
 
 3. Optional: Change to which prefix *gr-corrsounder* shall be installed - `source ~/corrsounder_prefix/setup_env.sh`
 
